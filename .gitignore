@@ -148,3 +148,4 @@ dist
 /test.js
 /package-lock.json
 /.vscode/*
+certificates/*.pem
