@@ -3,6 +3,8 @@ import fs from 'fs'
 import http from 'http'
 import https from 'https'
 
+// see here for more info: https://node-security.com/posts/express-https-server/
+
 const serverOptions = {
 	// Certificate(s) & Key(s) - generate them yourself or get them from somewhere
 	cert: fs.readFileSync('certificates/cert.pem', 'utf8'),
